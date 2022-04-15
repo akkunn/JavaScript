@@ -1,0 +1,43 @@
+body {
+  background:#BBBBBB;
+}
+
+.invalid {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.stopwatch {
+  user-select: none;
+  background: #EEEEEE;
+  width: 300px;
+  padding: 20px;
+  margin: 70px auto 0 auto;
+}
+
+.title {
+  font-size: 20px;
+  text-align: center;
+}
+
+.display {
+  border: 2px solid #000;
+  font-size: 30px;
+  text-align: center;
+  margin: 20px auto; 
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+
